@@ -2,9 +2,16 @@ h1,
 h2,
 h3,
 span,
-p {
+p,
+a,
+li,
+ul {
   margin: 0;
   padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 a {
@@ -22,39 +29,34 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  padding: 30px;
+  padding: 40px;
   margin-top: 100px;
   box-shadow: 10px 10px 30px #000;
 }
 
 .title {
   margin-bottom: 10px;
-  text-align: center;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .sub-title {
-  margin-bottom: 20px;
-  font-size: 1.1rem;
-  color: #000;
+  margin-bottom: 30px;
   text-align: center;
+  font-size: 1.1rem;
 }
 
-.sub-title:visited {
-  color: #000;
+.lista-dias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
-.label {
-  font-size: 0.9rem;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-input {
-  margin-bottom: 15px;
-  line-height: 1.5rem;
-}
-
-button {
-  padding: 6px 25px;
+.lista-dias a {
+  display: block;
+  padding: 10px 25px;
+  background-color: rgb(137, 139, 139);
+  border-radius: 4px;
+  color: #fff;
 }

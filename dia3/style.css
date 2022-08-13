@@ -7,10 +7,6 @@ p {
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(110, 112, 112);
@@ -40,19 +36,9 @@ body {
   text-align: center;
 }
 
-.sub-title:visited {
-  color: #000;
-}
-
-.label {
-  font-size: 0.9rem;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-input {
-  margin-bottom: 15px;
-  line-height: 1.5rem;
+.content {
+  width: fit-content;
+  margin: 0 auto;
 }
 
 button {
