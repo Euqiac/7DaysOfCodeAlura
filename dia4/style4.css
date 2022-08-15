@@ -7,10 +7,6 @@ p {
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(110, 112, 112);
@@ -30,29 +26,33 @@ body {
 .title {
   margin-bottom: 10px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .sub-title {
   margin-bottom: 20px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #000;
   text-align: center;
 }
 
-.sub-title:visited {
-  color: #000;
-}
-
-.label {
-  font-size: 0.9rem;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-input {
+.content label {
+  display: block;
+  font-size: 1.2rem;
+  text-align: center;
   margin-bottom: 15px;
-  line-height: 1.5rem;
+}
+
+.campo {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.botao {
+  width: fit-content;
+  margin: 0 auto;
 }
 
 button {

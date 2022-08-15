@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="./style.css" />
+    <title>#7DaysOfCode - Dia 5</title>
+    <link rel="stylesheet" href="./style5.css" />
     <script type="text/javascript" src="./dia5.js"></script>
   </head>
 
@@ -11,8 +12,27 @@
       <p class="sub-title">
         <a href="../home.html">#7DaysOfCode</a> - Lógica JS 5/7:
       </p>
+
       <div class="content">
-        <button onclick="start()">Start</button>
+        <div class="produto-container">
+          <label for="produto">Produto</label>
+          <input type="text" name="produto" id="produto" />
+        </div>
+        <div class="categoria-container">
+          <label for="categoria">Categoria</label>
+          <select class="categoria" name="categoria" id="categoria">
+            <option value="frutas">Frutas</option>
+            <option value="laticinios">Laticinios</option>
+            <option value="congelados">Congelados</option>
+            <option value="doces">Doces</option>
+            <option value="limpeza">Limpeza</option>
+            <option value="carnes">Carnes</option>
+          </select>
+          <!-- <button id="envio" onclick="enviar()">Enviar</button> -->
+        </div>
+        <div class="botao">
+          <button id="start" onclick="start()">Start</button>
+        </div>
       </div>
     </article>
   </body>
