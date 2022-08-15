@@ -40,13 +40,9 @@ body {
   margin-bottom: 15px;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.categoria-container {
-  margin-bottom: 20px;
+.orientacao {
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .botao {

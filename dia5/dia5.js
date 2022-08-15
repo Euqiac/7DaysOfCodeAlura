@@ -1,6 +1,4 @@
-function start(){
-    // const produto = document.querySelector("#produto").value;
-    // const categoria = document.querySelector("#categoria").value;
+function start(){ 
     let continuar = 1;
     const frutas = [];
     const verduras = [];
@@ -9,7 +7,6 @@ function start(){
     const doces = [];
     const limpeza = [];
     const carnes = [];
-    const arrayCategorias = ['frutas','verduras', 'laticinios', 'congelados', 'doces', 'limpeza', 'carnes']
 
     while (continuar == 1){
         const produto = prompt("Digite o nome do seu produto:");
@@ -50,7 +47,7 @@ function start(){
         const docesString = "Doces: " + doces.join(', ')
         const limpezaString = "Limpeza: " + limpeza.join(', ')
         const carnesString = "Carnes: " + carnes.join(', ')
-        
+
         alert(frutasString + "\n" + verdurasString + "\n" + laticiniosString + "\n" + congeladosString + "\n" + docesString + "\n" + limpezaString + "\n" + carnesString)
 
 }
