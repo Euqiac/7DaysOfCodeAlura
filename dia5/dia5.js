@@ -50,11 +50,7 @@ function start(){
         const docesString = "Doces: " + doces.join(', ')
         const limpezaString = "Limpeza: " + limpeza.join(', ')
         const carnesString = "Carnes: " + carnes.join(', ')
-        alert(frutasString)
-        alert(verdurasString)
-        alert(laticiniosString)
-        alert(congeladosString)
-        alert(docesString)
-        alert(limpezaString)
-        alert(carnesString)
+        
+        alert(frutasString + "\n" + verdurasString + "\n" + laticiniosString + "\n" + congeladosString + "\n" + docesString + "\n" + limpezaString + "\n" + carnesString)
+
 }
