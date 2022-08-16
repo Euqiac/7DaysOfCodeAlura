@@ -36,11 +36,21 @@ body {
   text-align: center;
 }
 
-.content {
+.produto-container {
+  margin-bottom: 15px;
+}
+
+.orientacao {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.botao {
   width: fit-content;
   margin: 0 auto;
 }
 
-button {
-  padding: 6px 25px;
+#start {
+  padding: 10px 30px;
+  font-size: 1.2rem;
 }
