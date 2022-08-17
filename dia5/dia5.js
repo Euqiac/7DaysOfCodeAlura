@@ -12,6 +12,8 @@ function start(){
         const produto = prompt("Digite o nome do seu produto:");
         const categoria = prompt("Digite em qual das categorias a seguir, o produto se encaixa: frutas[1], verduras[2], laticinios[3], congelados[4], doces[5], limpeza[6] ou carnes[7]?");
 
+    
+
         switch(parseInt(categoria)){
             case 1:
                 frutas.push(produto);
